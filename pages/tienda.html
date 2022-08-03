@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html lang= "es">
+
+    <head>
+        <title>Entrecasa Infusiones</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta name="keywords" content="bebidas, instagram, tendencia"/>
+        <meta name="author" content="Entrecasa Infusiones"/>
+        <meta name="copyright" content="Entrecasa Infusiones"/>
+        <meta name="robots" content="index,follow"/>
+        <meta http-equiv="cache-control" content="no-cache"/>
+        <link rel="shortcut icon" sizes="10x5" href=".images/Aesthetic Tea.jpg">
+        <link rel="stylesheet" href="/CSS/style.css">
+        
+    </head>
+
+    <body>
+
+        <h1>Entrecasa Infusiones</h1>
+
+        <nav class="menuCSS3">
+          <ul>
+              <li><a href="/index.html">Inicio</a></li>
+              <li><a href="#">Tienda</a>
+                  <ul>
+                      <li><a href="#">Herbales</a></li>
+                      <li><a href="#">Hebras Tradicionales</a></li>
+                      <li><a href="#">Blends de Autor</a></li>
+                      <li><a href="#">Accesorios</a></li>
+                  </ul>
+              </li>
+              <li><a href="/pages\faq.html">FAQ</a></li>
+              <li><a href="/pages\contacto.html">Contacto</a>
+                  <ul>
+                      <li><a href="#">Email</a></li>
+                      <li><a href="#">Whatsapp</a></li>
+                  </ul>
+  
+              </li>
+          </ul>
+      </nav>
+      </div> 
+
+      <section>
+        <h2>Acá podés calcular cuanto te van a salir tus productos con descuento!</h2>
+
+        <form>
+          <table>
+
+            <tr>
+          <td><label for="InputPrice">Precio real de tu producto elegido</label>
+          <input id="InputPrice" type="number" /></td>
+            </tr>
+            
+             <tr>
+          <td><label for="InputDiscount">¿De cuánto es el porcentaje de tu cupón de descuento?</label>
+          <input id="InputDiscount" type="number" /></td>
+        </tr>
+       
+          <td><button type="button" onclick="onClickButtonPriceDiscount()">
+            Tu nuevo total es de:
+          </button></td>
+      
+          <p id="ResultP"></p>
+
+        </tr>
+        </table>
+        </form>
+
+      </section>
+
+
+<div class="container">
+  <div class="row">
+      <!-- Elementos generados a partir del JSON -->
+      <main id="items" class="col-sm-8 row"></main>
+      <!-- Carrito -->
+      <aside class="col-sm-4">
+          <h2>Carrito</h2>
+          <!-- Elementos del carrito -->
+          <ul id="carrito" class="list-group"></ul>
+          <hr>
+          <!-- Precio total -->
+          <p class="text-right">Total: <span id="total"></span>&euro;</p>
+          <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+      </aside>
+  </div>
+</div>
+
+        </body>
+
+        <footer class="footer">
+
+          <table> 
+               <tr>
+                <p><a href="https://www.instagram.com/entrecasa.arg" target="_blank">ENTRECASA ARGENTINA</a> // ©COPYRIGHT 2022</p>
+             </tr>
+
+        </table> 
+
+    </footer>
+
+   <script src="/miarchivo.js"></script>
+   <!-- libreria JS | SweetAlert -->
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
